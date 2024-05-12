@@ -16,7 +16,7 @@ const server = app.listen(PORT, () => {
 });
 
 const send_message = async (token) => {
-  const channel = "Your channel ID";
+  const channel = "1198536124495314954";
   const message = "hello";
 
   const header = { 'authorization': token };
